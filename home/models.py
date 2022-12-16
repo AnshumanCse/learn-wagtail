@@ -151,6 +151,7 @@ class HomePage(RoutablePageMixin, Page):
 
     def get_admin_display_title(self):
         return "Custom Home Page Title"
+    def get_version;
 
 # # This will change the "title" field 's verbose name to "Custom Name".
 # # But you'd still reference it in the template as `page.title`
